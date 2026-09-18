@@ -16,7 +16,7 @@ This repository documents my progression from basic HTML to responsive layouts, 
 |04|[Event Hub](./04-event-hub)|HTML|
 |05|[Video Compilation Page](./05-video-compilation-page)|HTML|
 |06|[Book Catalog](./06-book-catalog)|HTML|
-|07|[Blog Page](./07-blog-page)|HTML|
+|07|[Survey Form](./07-survey-form)|HTML|
 
 ## 🎯 Goals
 
