@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-color: #0F172A;
+  color: #F8FAFC;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #CBD5E1;
+
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 200px;
+  background-color: #1E293B;
+  margin-bottom: 10px;
+}
+
+.basic-plan {
+  border: 2px solid #3B82F6;
+}
+
+.basic-plan:hover {
+  background-color: #263B63;
+  border-color: #1D4ED8;
+  cursor: pointer;
+}
+.pro-plan {
+  border: 2px solid #8B5CF6;
+  order: 2;
+}
+
+.pro-plan:hover {
+  background-color: #382B5C;
+  border-color: #6D28D9;
+  cursor: pointer;
+}
+.premium-plan {
+  border: 2px solid #10B981;
+  order: 3;
+}
+
+.premium-plan:hover {
+  background-color: #1F4A3B;
+  border-color: #047857;
+  cursor: pointer;
+}
