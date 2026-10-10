@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+<body>
+  <header id="header">
+    <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/27/27130.png" alt="SONORA headphones logo" />
+    <span>SONORA</span>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#experience">Experience</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero"> 
+      <p class="eyebrow">PURE SOUND. ZERO DISTRACTIONS.</p> 
+      <h1>Hear every detail.</h1> 
+      <p class="hero-description"> Meet SONORA One. Premium wireless headphones designed for the moments that matter. </p> 
+      <a class="button" href="#pricing">Discover SONORA</a> 
+      <img class="hero-image" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=85" alt="Premium headphones displayed against a clean background" /> 
+    </section>
+    <section id="features" class="section"> 
+      <p class="eyebrow">ENGINEERED FOR YOU</p> <h2>Sound without compromise.</h2> 
+      <div class="features-grid"> 
+        <article class="feature-card"> 
+          <span class="feature-number">01</span> <h3>Immersive audio</h3> 
+          <p> Experience rich bass, clear vocals and balanced sound that brings your favorite music to life. </p> 
+        </article> 
+        <article class="feature-card"> 
+          <span class="feature-number">02</span> <h3>All-day comfort</h3> 
+          <p> Soft ear cushions and a lightweight design make long listening sessions feel effortless. </p> 
+        </article> 
+        <article class="feature-card"> 
+          <span class="feature-number">03</span> <h3>Freedom to move</h3> 
+          <p> Enjoy wireless listening and a design made to move with you throughout your day. </p> 
+        </article> 
+      </div> 
+    </section>
+    <section id="experience" class="section experience"> 
+      <div class="experience-copy"> 
+        <p class="eyebrow">YOUR WORLD. YOUR SOUND.</p> 
+        <h2>Press play on a better experience.</h2> 
+        <p> From your morning playlist to your evening soundtrack, SONORA brings your audio closer to the way it was meant to be heard. </p> 
+      </div>
+      <div class="video-container"> 
+        <iframe 
+        id="video" 
+        src="https://www.youtube-nocookie.com/embed/2OEL4P1Rz04" 
+        title="Music and sound experience" loading="lazy" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen >
+        </iframe> 
+      </div> 
+    </section>
+    <section id="pricing" class="section pricing"> 
+      <p class="eyebrow">MAKE IT YOURS</p> <h2>Your sound. Your choice.</h2> 
+      <p class="section-description"> Discover premium audio, designed around your everyday life. </p> 
+      <div class="pricing-card"> 
+        <p class="plan-label">SONORA ONE</p> <h3>Wireless Headphones</h3> 
+        <p class="price">€149<span>.00</span></p> <ul> 
+          <li>Premium wireless audio</li> <li>Comfort-focused design</li> <li>Minimal, timeless style</li> 
+        </ul> 
+        <a class="button button-secondary" href="#newsletter"> Get product updates </a> 
+        <p class="disclaimer"> Concept product for a web design project. Price is illustrative. </p> 
+      </div> 
+    </section>
+    <section id="newsletter" class="section newsletter"> 
+      <p class="eyebrow">STAY IN THE LOOP</p> <h2>Good things are worth hearing about.</h2> 
+      <p> Sign up for product news, updates and a little inspiration for your next listening session. </p> 
+      <form id="form" action="https://www.freecodecamp.org/email-submit" method="GET" > 
+        <label for="email">Your email address</label> 
+        <div class="form-row"> 
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required /> <input id="submit" type="submit" value="Keep me updated" /> 
+        </div> 
+      </form> 
+    </section>
+  </main>
+  <footer class="footer"> 
+    <a class="footer-brand" href="#home">SONORA</a> 
+    <p>Designed for the way you listen.</p> 
+    <p class="copyright">© 2026 SONORA — Fictional student project.</p> 
+  </footer>
+</body>
+
+</html>
